@@ -21,16 +21,21 @@ This script is an automated aim assist tool designed for the game "Rounds." It d
 Install the libraries using:
 ```bash
 pip install -r requirements.txt
-or run file
-install.bat
 ```
+  -or 
+   - Use the `install.bat` file to only install the required dependencies without running the script.
+     - Double-click on `install.bat` to install all necessary libraries.
 
 ## How to Use
 
-1. **Run the Script**: Execute the script using Python.
-   ```bash
-   python main.py
-   ```
+1. **Run the Script**: You can either:
+   - Use the `install_and_start.bat` file to automatically install dependencies and run the script.
+     - Double-click on `install_and_start.bat` to set everything up.
+   - Or manually run the script using Python:
+     ```bash
+     python main.py
+     ```
+
 
 2. **Switch Target Colors**:
    - Press `1` to target red enemies.
@@ -49,3 +54,4 @@ install.bat
 - Adjust the HSV color ranges for red and blue enemies in the following variables:
   - `lower_red` and `upper_red`
   - `lower_blue` and `upper_blue`
+
